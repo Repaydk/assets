@@ -1,0 +1,177 @@
+{
+  "username": "test",
+  "content": "",
+  "tts": false,
+  "embeds": [
+    {
+      "id": 643276095,
+      "title": "UNIKPAY OVERSIGT",
+      "description": "UnikPay er et smarte betaling system til at sa servere \nhvor staffmedlemmer af deres server kan modtage deres ems uden at rør en finger,\nvi bestræber i at være de stærkste inden på markedet og er blandet en af de eneste\npaybots der bruger websocket til at lever en hurtig levering af det folk køber.\n\n> BEMÆRK hvis du ikke kan finde botten i limbo, eller med kommanden /find unikpay så skal du ikke paye botten.\n\nI denne embed vil det står de kommandoer du kommer til at bruge som en normal spillere.",
+      "color": 16770304,
+      "author": {
+        "name": "UnikPay",
+        "icon_url": "https://media.discordapp.net/attachments/1123308770303418369/1124774798036304022/Emerald_JE3_BE3.png"
+      },
+      "fields": [
+        {
+          "id": 352241063,
+          "name": "/link",
+          "value": "Vi har udviklet et unikt linksystem. Vores system fungerer ved, at du logger ind med din Microsoft-konto eller ved msg unikpay i larmelobby med denne kode der står i chatten, hvorefter du bliver forbundet med UnikPay.",
+          "inline": true
+        },
+        {
+          "id": 236809928,
+          "name": "/unlink <account>",
+          "value": "Når du unlinker, vil du ikke længere være forbundet med din Minecraft-konto.",
+          "inline": true
+        },
+        {
+          "id": 691756168,
+          "name": "/profile",
+          "value": "Med denne kommando vil du finde information om din konto.",
+          "inline": true
+        },
+        {
+          "id": 788866372,
+          "name": "/balance <account>",
+          "value": "Med denne kommando vil du se din balance.",
+          "inline": true
+        },
+        {
+          "id": 533871485,
+          "name": "/payout <account> <antal>",
+          "value": "Med denne kommando vil du udbetale emeralder fra din balance.",
+          "inline": true
+        },
+        {
+          "id": 452755932,
+          "name": "/pay <account> <modtager> <amount>",
+          "value": "Med denne kommando vil du kunne sende ems til andre personer der benytter sig af unikpay.",
+          "inline": true
+        }
+      ]
+    },
+    {
+      "id": 402925673,
+      "title": "SERVER KOMMANDOER OVERSIGT",
+      "description": "Denne embed er til dig der gerne vil bruge UnikPay på din server men ved ikke hvordan,\n\nDu skal have **UnikPay** pluginet på din server for overhoved at bruge unikpay.\nAPI-NØGLER og SERVER-NØGLER er det samme, vi har bare brugt nogle steder det forkert ord.\n\nvi har skript eksempler i https://canary.discord.com/channels/1123308462290513962/1125857021439262883/1125857021439262883 og https://canary.discord.com/channels/1123308462290513962/1127227903571148812/1127227903571148812\nog denne individuelt person bruger tit kun en pakke så de skal tryk på det først link.\n\nog hvis du er den hardcore bruger der kan finde ud af java så kan du følge https://canary.discord.com/channels/1123308462290513962/1125875147593756763/1125875147593756763",
+      "color": 16770304,
+      "author": {
+        "name": "UnikPay",
+        "icon_url": "https://media.discordapp.net/attachments/1123308770303418369/1124774798036304022/Emerald_JE3_BE3.png"
+      },
+      "fields": [
+        {
+          "id": 347129603,
+          "name": "/ server opret <server> <account>",
+          "value": "Ved hjælp af denne kommando kan du oprette en server, der vil få sin helt egen konto. Derudover vil du også modtage en API-nøgle, som du skal bruge til vores plugin. **DU SKAL EJER SERVEREN INGAME**",
+          "inline": true
+        },
+        {
+          "id": 748083012,
+          "name": "/server slet <server>",
+          "value": "Med denne kommando kan du fjerne en server, som du ejer, og saldoen på serveren vil blive overført til ejeren af serveren.",
+          "inline": true
+        },
+        {
+          "id": 313552990,
+          "name": "/server list <account>",
+          "value": "Med denne kommando kan du se en liste over alle de servere, du ejer eller er subuser af den.",
+          "inline": true
+        },
+        {
+          "id": 856968738,
+          "name": "/server info <server>",
+          "value": "Med denne kommando kan du se information om en server, som du ejer eller har tilladelse til at se den.",
+          "inline": true
+        },
+        {
+          "id": 326212117,
+          "name": "/server resetkey <server>",
+          "value": "Med denne kommando kan du nulstille din API-nøgle.",
+          "inline": true
+        },
+        {
+          "id": 241390035,
+          "name": "/server udbetal <server> <account> <beløb>",
+          "value": "Med denne kommando kan du udbetale emeralder fra serverens saldo.",
+          "inline": true
+        },
+        {
+          "id": 200305306,
+          "name": "/server indbetal<server> <account> <beløb>",
+          "value": "Med denne kommando kan du indbetale emeralder til serverens saldo.\n**KRÆVER AT SERVEREN HAR PAY FUNKTIONEN SLÅET TIL**",
+          "inline": true
+        },
+        {
+          "id": 629870905,
+          "name": "/server omdøb <server> <nytnavn>",
+          "value": "Med denne kommando kan du ændre navnet på den server, du har angivet.",
+          "inline": true
+        },
+        {
+          "id": 344262518,
+          "name": "/server log opret <server> <kanal>",
+          "value": "Ved brug af denne kommando kan du oprette log, der registrerer køb foretaget af brugere og udbetalinger på din server. Du vil modtage en logbesked i den kanal, du har valgt.",
+          "inline": true
+        },
+        {
+          "id": 297140129,
+          "name": "/server log slet <server>",
+          "value": "Med denne kommando vil du slette den log du havde på den server",
+          "inline": true
+        },
+        {
+          "id": 336969900,
+          "name": "/server console opret <server> <kanal>",
+          "value": "Ved brug af denne kommando kan du oprette console, der registrerer alt der logges/skrives på din server. Du vil modtage en consolebesked i den kanal, du har valgt.",
+          "inline": true
+        },
+        {
+          "id": 362049430,
+          "name": "/server console slet <server>",
+          "value": "Med denne kommando vil du slette den log du havde på den server",
+          "inline": true
+        },
+        {
+          "id": 267636608,
+          "name": "/server console send <server> <kommand>",
+          "value": "Med denne kommando kan du sende kommandoer til din server",
+          "inline": true
+        },
+        {
+          "id": 997719552,
+          "name": "/server subusers tilføj <server> <account>",
+          "value": "Med denne kommando kan du tilføje en person til din server og give ham tilladelser til forskellige ting.",
+          "inline": true
+        },
+        {
+          "id": 726027050,
+          "name": "/server subusers fjern <server> <account>",
+          "value": "Med denne kommando kan du fjerne en person fra din server.",
+          "inline": true
+        },
+        {
+          "id": 973369525,
+          "name": "/server subusers list <server>",
+          "value": "Med denne kommando kan du se hvem der er subusers på din server.",
+          "inline": true
+        },
+        {
+          "id": 170790801,
+          "name": "/server subusers ændre <server> <account>",
+          "value": "Med denne kommando kan du ændre hvad for nogle permissions brugeren skal have.",
+          "inline": true
+        },
+        {
+          "id": 767860996,
+          "name": "/server subusers info <server> <account>",
+          "value": "Med denne kommando kan du se hvilke permissions brugeren har adgang til.",
+          "inline": true
+        }
+      ]
+    }
+  ],
+  "components": [],
+  "actions": {}
+}
